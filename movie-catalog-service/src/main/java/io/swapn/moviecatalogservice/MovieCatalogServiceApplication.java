@@ -19,10 +19,10 @@ public class MovieCatalogServiceApplication {
 		return WebClient.builder();	
 	}
 	
-	@Bean
-	public WebClient.Builder getWebClientBuilder(){
-		return WebClient.builder();	
-	}
+	/*
+	 * @Bean public WebClient.Builder getWebClientBuilder(){ return
+	 * WebClient.builder(); }
+	 */
 	public static void main(String[] args) {
 		SpringApplication.run(MovieCatalogServiceApplication.class, args);
 	}
